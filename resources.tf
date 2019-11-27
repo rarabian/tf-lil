@@ -8,6 +8,6 @@ resource "aws_vpc" "environment-example-too" {
     enable_dns_hostnames = true
     enable_dns_support = true
     tags = {
-        Name = "terraform_aws_gcp_example_too"
+        Name = "terraform_aws_example_too"
     }
 }
